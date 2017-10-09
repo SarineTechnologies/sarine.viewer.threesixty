@@ -140,6 +140,6 @@ Here are the list of config value you can pass in while you initilize your 360 s
 </table>
 
 LICENSE
-         ---------
+---------
 
 Copyright 2013 Gaurav Jassal

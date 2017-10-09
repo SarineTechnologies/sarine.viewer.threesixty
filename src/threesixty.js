@@ -135,23 +135,7 @@
         };
 
 
-        base.loadImages = function() {
-            var li, imageName, image, host, baseIndex;
-            li = document.createElement('li');
-            baseIndex = AppConfig.zeroBased ? 0 : 1;
-            imageName = !AppConfig.imgArray ?
-                AppConfig.domain + AppConfig.imagePath + AppConfig.filePrefix + base.zeroPad((AppConfig.loadedImages + baseIndex)) + AppConfig.ext + ((base.browser.isIE()) ? '?' + new Date().getTime() : '') :
-                AppConfig.imgArray[AppConfig.loadedImages];
-            image = $('<img>').attr('src', imageName).addClass('previous-image').appendTo(li);
 
-            frames.push(image);
-
-            base.$el.find(AppConfig.imgList).append(li);
-
-            $(image).load(function () {
-                base.imageLoaded();
-            });
-        };
 
         /**
          * @method loadImages
