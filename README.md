@@ -4,6 +4,11 @@
 
 sarine.viewer.threesixty
 
+how to build :
+grunt --gruntfile=Gruntfile.js build
+copy content of dist to content/viewers/atomic/v1/assets
+also make sure to overwrite threesixty.css file
+
 
 Example 1
 ---------------------
@@ -132,3 +137,7 @@ Here are the list of config value you can pass in while you initilize your 360 s
   </tr>
 </table>
 
+LICENSE
+---------
+
+Copyright 2013 Gaurav Jassal
