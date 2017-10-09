@@ -1,45 +1,9 @@
-# Hello All, I am not maintaining this plugin anymore. 
 
 ![Three Sixty Image slider plugin](https://raw.github.com/creativeaura/threesixty-slider/master/assets/360.png)
 
 
+sarine.viewer.threesixty
 
-Three Sixty Image slider plugin v2.0.5
-=================
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/creativeaura/threesixty-slider/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-[![Build Status](https://travis-ci.org/creativeaura/threesixty-slider.svg?branch=master)](https://travis-ci.org/creativeaura/threesixty-slider)
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/creativeaura/threesixty-slider?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-
-This is a jQuery plugin to create 360 degree product image slider. The plugin is full customizable with number of options provided. The plugin have the power to display images in any angle 360 degrees. This feature can be used successfully in many use cases e.g. on an e-commerce site to help customers look products in detail, from any angle they desire.
-
-**Features**
-
-- Smooth Animation
-- Plenty of option parameters for customization
-- Api interaction
-- Simple mouse interaction
-- Custom behavior tweaking
-- Support for touch devices
-- Easy to integrate
-- No flash
-- Plugin integration
-
-Plugins
----------------------
-
-- [Drupal module](https://drupal.org/sandbox/coderider/2274229) by [Rashid Abdullah](https://drupal.org/u/coderider)
-
-Installation
----------------------
-
-Git
-
-    git clone https://github.com/creativeaura/threesixty-slider.git
-
-Or install using bower
-
-    bower install threesixty-slider
 
 Example 1
 ---------------------
@@ -168,29 +132,3 @@ Here are the list of config value you can pass in while you initilize your 360 s
   </tr>
 </table>
 
-Demo
----------------------
-- [Example 1 Default Settings](http://360slider.com/default_control.html)
-- [Example 2 Custom controls](http://360slider.com/custom_controls.html)
-- [Responsive](http://360slider.com/responsive.html)
-- [With Plugins](http://360slider.com/plugins.html)
-- [Fullscreen](http://360slider.com/full_page_scrolling.html)
-
-Browsers Supported
----------------------
-![Browsers Supported](https://raw.github.com/creativeaura/threesixty-slider/master/assets/browser_logos-64.png)
-
-This plugin is supported in all browsers including our beloved IE 6
-
-
-Support
----------------------
-For support and question please contact at [gaurav@jassal.me](mailto:gaurav@jassal.me) or follow at [@gauravjassal](http://twitter.com/gauravjassal)
-
-
-LICENSE
----------
-
-Copyright 2013 Gaurav Jassal
-
-Released under the MIT and GPL Licenses.
