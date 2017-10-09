@@ -6,9 +6,9 @@ sarine.viewer.threesixty
 
 ##### How to build :
 grunt --gruntfile=Gruntfile.js build
----------
+
 copy content of dist to content/viewers/atomic/v1/assets
----------
+
 also make sure to overwrite threesixty.css file
 
 
