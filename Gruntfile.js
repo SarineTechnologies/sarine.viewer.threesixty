@@ -69,7 +69,7 @@ module.exports = function(grunt) {
       },
       dist: {
         files: [
-          {expand: true, flatten: true, src: ['dist/threesixty.min.js'], dest: 'deploy/js/', filter: 'isFile'}
+          {expand: true, flatten: true, src: ['dist/threesixty.min.js','src/styles/threesixty.css'], dest: 'dist/', filter: 'isFile'}
         ]
       }
     },
@@ -83,5 +83,5 @@ module.exports = function(grunt) {
 
   // Default task(s).
   grunt.registerTask('default', ['jshint', 'uglify']);
-  grunt.registerTask('build', ['uglify']);
+  grunt.registerTask('build', ['uglify','copy:dist']);
 };
